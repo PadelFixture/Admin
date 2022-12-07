@@ -1,0 +1,35 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+trunk/
+.svn/
+.svn*
+
+.classpath
+.project
+.externalToolBuilders/
+.svn*
+
+.classpath
+.project
+.externalToolBuilders/

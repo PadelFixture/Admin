@@ -1,0 +1,20 @@
+.mayusculasWork{
+	text-transform:uppercase;
+}	
+.tdcenter{
+text-align: center;
+}
+.tdnone{
+display: none;
+}
+
+.tdNombreTrabajador{
+	text-transform:uppercase;
+}
+.tdright{
+text-align: right;
+}
+
+.tdleft{
+text-align: left !important;
+}

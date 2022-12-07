@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<Pattern>%d{dd-MM-yyyy HH:mm:ss} >> [SimpleWeb] %-5level %class{0}.%M[%L] - %msg\n</Pattern>
+		</encoder>
+	</appender>
+
+	<appender name="rollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<File>${user.home}\TmpLog\appLog.log</File>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${user.home}\TmpLog\appLog.%d{yyyy-MM-dd}.log</fileNamePattern>
+			<maxHistory>2</maxHistory>
+			<totalSizeCap>1GB</totalSizeCap>
+		</rollingPolicy>
+
+		<encoder>
+			<Pattern>%d{dd-MM-yyyy HH:mm:ss} >> [SimpleWeb] %-5level %class{0}.%M[%L] - %msg\n</Pattern>
+		</encoder>
+	</appender>
+
+	<logger name="org.springframework" level="DEBUG" additivity="false">
+		<appender-ref ref="consoleAppender" />
+		<appender-ref ref="rollingFileAppender" />
+	</logger>
+
+	<logger name="cl.expled.web" level="DEBUG" additivity="false">
+		<appender-ref ref="consoleAppender" />
+		<appender-ref ref="rollingFileAppender" />
+	</logger>
+
+	<logger name="lib.data.json" level="DEBUG" additivity="false">
+		<appender-ref ref="consoleAppender" />
+		<appender-ref ref="rollingFileAppender" />
+	</logger>
+
+	<logger name="lib.db" level="DEBUG" additivity="false">
+		<appender-ref ref="consoleAppender" />
+		<appender-ref ref="rollingFileAppender" />
+	</logger>
+
+</configuration>

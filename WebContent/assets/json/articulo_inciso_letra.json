@@ -1,0 +1,108 @@
+
+[
+ {
+  "id":"1",
+  "name":"Articulo 159",
+  "parent_id":"0"
+ }, 
+ {
+  "id":"2",
+  "name":"Articulo 160",
+  "parent_id":"0"
+ }, 
+ {
+  "id":"3",
+  "name":"Articulo 161",
+  "parent_id":"0"
+ },
+ {
+  "id":"4",
+  "name":"Articulo 163",
+  "parent_id":"0"
+ },
+ {
+  "id":"5",
+  "name":" Inciso 1 - Mutuo Acuerdo entre las Partes",
+  "parent_id":"1"
+ }, 
+ {
+  "id":"6",
+  "name":" Inciso 2 - Renuncia del Trabajador",
+  "parent_id":"1"
+ }, 
+ {
+  "id":"7",
+  "name":"Inciso 1 - Muerte del Trabajador",
+  "parent_id":"2"
+ }, 
+ {
+  "id":"8",
+  "name":"Inciso 2 - Vencimiento del Convenio",
+  "parent_id":"2"
+ }, 
+ {
+  "id":"9",
+  "name":"Inciso 3 - Conclusion del Trabajo",
+  "parent_id":"2"
+ }, 
+ {
+  "id":"10",
+  "name":"Letra A - Falta de Probidad del desempeño de sus funciones",
+  "parent_id":"7"
+ }, 
+ {
+  "id":"11",
+  "name":"Letra B - Conductas de acoso sexual",
+  "parent_id":"7"
+ }, 
+ {
+  "id":"12",
+  "name":"Letra C - Vias de hechos ejercidad del Trabajador en contra del Empleador",
+  "parent_id":"7"
+ }, 
+ {
+  "id":"13",
+  "name":"Letra D - Injurias proferidas por el trabajador al empleador",
+  "parent_id":"7"
+ }, 
+ {
+  "id":"14",
+  "name":"Letra E - Conducta inmoral del trabajador",
+  "parent_id":"7"
+ }, 
+ {
+  "id":"15",
+  "name":"Letra F - Conductas de acoso laboral",
+  "parent_id":"7"
+ }, 
+ {
+  "id":"16",
+  "name":"a) Falta de probidad del trabajador en el desempeño de sus funciones;",
+  "parent_id":"10"
+ }, 
+ {
+  "id":"17",
+  "name":"b) Conductas de acoso sexual;",
+  "parent_id":"11"
+ }, 
+ {
+  "id":"18",
+  "name":"c) Vías de hecho ejercidas por el trabajador en contra del empleador o de cualquier trabajador que se desempeñe en la misma empresa;",
+  "parent_id":"12"
+ }, 
+ {
+  "id":"19",
+  "name":"d) Injurias proferidas por el trabajador al empleador, y",
+  "parent_id":"13"
+ }, 
+ {
+  "id":"20",
+  "name":"e) Conducta inmoral del trabajador que afecte a la empresa donde se desempeña.",
+  "parent_id":"14"
+ }, 
+ {
+  "id":"21",
+  "name":"f) Conductas de acoso laboral.",
+  "parent_id":"15"
+ }
+]
